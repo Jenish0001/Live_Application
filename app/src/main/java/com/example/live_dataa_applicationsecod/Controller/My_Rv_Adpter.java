@@ -41,6 +41,7 @@ public class My_Rv_Adpter extends RecyclerView.Adapter<My_Rv_Adpter.ViewData> {
     @Override
     public void onBindViewHolder(@NonNull ViewData holder, int position) {
 
+
         holder.amount_rv_view.setText(l1.get(position).getAmount());
         holder.stats_rv_view.setText(l1.get(position).getStats());
         holder.data_rv_view.setText(l1.get(position).getData());
@@ -69,10 +70,10 @@ public class My_Rv_Adpter extends RecyclerView.Adapter<My_Rv_Adpter.ViewData> {
 
     class ViewData extends RecyclerView.ViewHolder {
 
-
         private final TextView amount_rv_view;
         private final TextView stats_rv_view;
         private final TextView data_rv_view;
+
 
         public ViewData(@NonNull View itemView) {
 

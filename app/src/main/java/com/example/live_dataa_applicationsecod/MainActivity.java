@@ -14,6 +14,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+
 import com.example.live_dataa_applicationsecod.Controller.My_Rv_Adpter;
 import com.example.live_dataa_applicationsecod.Modelclass.Model_class;
 
@@ -27,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
     private Button add_btn;
     String stats, radio;
 
-    List<Model_class> l1 = new ArrayList<>();
-    List<Model_class> mData = new ArrayList<>();
-
+//    List<Model_class> l1 = new ArrayList<>();
+//    List<Model_class> mData = new ArrayList<>();
+List<Model_class> l1=new ArrayList<>();
+List<Model_class> mData=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
